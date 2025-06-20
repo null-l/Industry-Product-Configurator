@@ -7,7 +7,8 @@ namespace IndustryCSE.Tool.ProductConfigurator.ScriptableObjects
         public string VariantName => variantName;
         [SerializeField]
         private string variantName;
-        
+
+        public float blendingFactor;
         public Texture2D icon;
         public int additionalCost;
         public string description;
