@@ -4,10 +4,11 @@ namespace IndustryCSE.Tool.ProductConfigurator.ScriptableObjects
 {
     public class VariantSetAsset : AssetBase
     {
+        public float blendingFactor = 1.0f;
         public string VariantSetName => variantSetName;
         [SerializeField]
         private string variantSetName;
-
+        
         #if UNITY_EDITOR
         
         [HideInInspector]
